@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.insertPragma": false,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "editor.formatOnType": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.rules": null
+}
