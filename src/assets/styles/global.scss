@@ -1,0 +1,31 @@
+$theme-color:#ffffff;
+
+body{
+    background-color: $theme-color;
+    //禁止选中文字
+    user-select: none;
+}
+img{
+    //禁止拖动图片
+    -webkit-user-drag: none;
+}
+
+
+
+.layout{
+    min-height: 100vh!important;
+    .logo {
+        height: 32px;
+        margin: 16px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+    .site-layout-header{
+        background: $theme-color;
+    }
+    .site-layout-content{
+         background: $theme-color;
+         margin: 24px 16px;
+         padding: 24;
+         minHeight: 280;
+    }
+}

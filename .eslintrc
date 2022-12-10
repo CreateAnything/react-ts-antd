@@ -13,7 +13,7 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json",
+    "project": "tsconfig.json",
     "ecmaFeatures": {
       "tsx": true
     }
@@ -24,6 +24,7 @@
     "no-alert": "error",
     "prettier/prettier": ["error", {"endOfLine": "auto"}],
     "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-unused-vars":[2]
   }
 }
